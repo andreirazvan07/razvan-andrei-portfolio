@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Razvan Andrei | Portfolio</title>
+    <meta name="author" content="Razvan Andrei">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="style.css">
+    <!------ ion icons ------->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    
+</head>
+
+<body class="home">
+    <div class="wrapper">
+
+        <!------------Nav-------------->
+    
+    <nav>
+      <!-- <div class="menu-toggle">
+        <ion-icon name="apps-outline"></ion-icon>
+      </div> -->
+      <span id="brand">
+            <a href="index.html" class="big-logo">r.</a>
+            <a href="index.html" class="small-logo">r.</a>
+      </span>
+      <div id="menu">
+          <a href="/" class="hover-this"><span>Home</span></a>
+          <div class="cursor"></div>
+      </div>
+  </nav>
+<!------------Menu closed--------------->  
+  <div class="overlay">
+    <div class="close-btn">
+      <ion-icon name="apps-outline" class='reverse'></ion-icon>
+    </div>
+    <div class="menu">
+      <ul>
+        <li class="menu__item">
+          <a class="menu__item-link">/ Projects</a>
+          <img class="menu__item-img" src="./sculptures/pexels-sunsetoned-6598664.jpg"/>
+          <div class="marquee">
+            <div class="marquee__inner">
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__item-link">/ About Me</a>
+          <img class="menu__item-img" src="./sculptures/pexels-cottonbro-3738123.jpg"/>
+          <div class="marquee">
+            <div class="marquee__inner">
+              <span>About Me</span>
+              <span>About Me</span>
+              <span>About Me</span>
+              <span>About Me</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__item-link">/ Blog</a>
+          <img class="menu__item-img" src="./sculptures/pexels-keegan-everitt-1001835.jpg"/>
+          <div class="marquee">
+            <div class="marquee__inner">
+              <span>Blog</span>
+              <span>Blog</span>
+              <span>Blog</span>
+              <span>Blog</span>
+              <span>Blog</span>
+              <span>Blog</span>
+              <span>Blog</span>
+              <span>Blog</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu__item">
+          <a class="menu__item-link">/ Contact</a>
+          <img class="menu__item-img" src="./sculptures/pexels-dominika-roseclay-1021754.jpg"/>
+          <div class="marquee">
+            <div class="marquee__inner">
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+    <!-------------->
+
+        <!-- horizontal scroll items -->
+        <div class="container">
+            <div class="container__item container__item-header">
+              
+              <h1>Portfolio<br> Projects</h1>
+            </div>
+
+            <div class="container__item container__item-1">
+                <h1 class="container__item-title">
+                    <a href="project.html">Front-End</a>
+                </h1>
+            </div>
+            <div class="container__item container__item-2">
+                <h1 class="container__item-title">
+                    <a href="project.html">Social Media</a>
+                </h1>
+            </div>
+            <div class="container__item container__item-3">
+                <h1 class="container__item-title">
+                    <a href="project.html">Copywriting</a>
+                </h1>
+            </div>
+            <div class="container__item container__item-4">
+                <h1 class="container__item-title">
+                    <a href="project.html">JS Games</a>
+                </h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- script -->
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+    <script src="js/horizontal-scroll.js"></script>
+    <script>
+        var blocks = document.getElementsByClassName("container__item");
+        var container = document.getElementsByClassName("container");
+        var hs = new HorizontalScroll.default({
+            blocks: blocks,
+            container: container,
+            isAnimated: true,
+            springEffect: 0.8,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="ig: @harrnish / @codegridweb" />
+    <title>Razvan Andrei | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ANIMEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- IONICONS -->
+    <!-- <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script> -->
+    <!------ ion icons ------->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <!-- SCROLL REVEAL ANIMATIONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
+    />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+    <!-- SIMPLE PARALLAX -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+
+    <script src="./js/circletype.min.js"></script>
+    <!-- locomotive-scroll -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script> -->
+
+  </head>
+  <body id="js-scroll">
+    
+  
+    <!------------Nav-------------->
+    
+    <nav>
+      <div class="menu-toggle">
+        <ion-icon name="apps-outline"></ion-icon>
+      </div>
+      <span id="brand">
+            <a href="index.html" class="big-logo">rzvn</a>
+            <a href="index.html" class="small-logo">r.</a>
+      </span>
+      <div class="middle">
+        <ion-icon name="bulb-outline"></ion-icon>
+        <p>
+          Imagine
+          <br>
+          Learn
+          <br>
+          Create
+          <br>
+          <span class='nav-repeat'>repeat.</span>
+        </p>
+      </div>
+      <div id="menu">
+          <a href="/projects" class="hover-this"><span>Projects</span></a>
+          <a href="#about" class="hover-this"><span>About</span></a>
+          <a href="#personal" class="hover-this"><span>Contact</span></a>
+          <div class="cursor"></div>
+      </div>
+  </nav>
+<!------------Menu closed--------------->  
+  <div class="overlay">
+    <div class="close-btn">
+      <ion-icon name="apps-outline" class='reverse'></ion-icon>
+    </div>
+    <div class="menu">
+      <ul>
+        <li class="menu__item">
+          <a class="menu__item-link" href="/projects">/ Projects</a>
+          <img class="menu__item-img" src="./sculptures/pexels-sunsetoned-6598664.jpg"/>
+          <div class="marquee">
+            <div class="marquee__inner">
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+              <span>Projects</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu__item">
+          <a href="#about" class="menu__item-link" >/ About</a>
+          <img class="menu__item-img" src="./sculptures/pexels-cottonbro-3738123.jpg"/>
+          <div class="marquee">
+            <a href="#about">
+            <div class="marquee__inner">
+              <span>About</span>
+              <span>About</span>
+              <span>About</span>
+              <span>About</span>
+            </div>
+          </a>
+          </div>
+        </li>
+
+        <!-- <li class="menu__item">
+          <a href="/cv" class="menu__item-link">/ Curriculum vitae</a>
+          <img class="menu__item-img" src="./sculptures/pexels-keegan-everitt-1001835.jpg"/>
+          <div class="marquee">
+            <div class="marquee__inner">
+              <span>Curriculum vitae</span>
+              <span>Curriculum vitae</span>
+              <span>Curriculum vitae</span>
+              <span>Curriculum vitae</span>
+              <span>Curriculum vitae</span>
+              <span>Curriculum vitae</span>
+              <span>Curriculum vitae</span>
+              <span>Curriculum vitae</span>
+            </div>
+          </div>
+        </li> -->
+
+        <li class="menu__item">
+          <a href="#personal" class="menu__item-link">/ Contact</a>
+          <img class="menu__item-img" src="./sculptures/pexels-dominika-roseclay-1021754.jpg"/>
+          <div class="marquee">
+            <a href="#personal">
+            <div class="marquee__inner">
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+              <span>Contact</span>
+            </div>
+          </a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+    <!-------------->
+    
+    <!-- HERO SECTION -->
+    <a name="home"></a>
+    <div class="wrapper">
+      <section class="hero-section">
+        <div class="container-left">
+          <div class="left-img-cap">
+              <span>01</span>
+          </div>
+          <div class="container-left-img"></div>
+        </div>  
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="media">
+          <ul>
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Scroll-down -->
+        <div class="scroll-down"></div>
+
+        <!-- HERO-IMAGE -->
+        <div class="hero-img ">
+          <img src="Untitled-1.jpg" class="hero-img-parallax" />
+        </div>
+
+        <!-- HERO-TITLE -->
+        <div class="hero-title">
+          <h1>Răzvan___Andrei</h1>
+        </div>
+      </section>
+      
+<!-- sections -->
+<div class="section-header">
+  <div class="section-header-container">
+      <div class="section-order wow fadeInUp" data-wow-delay='0.2s'>02</div>
+      <div class="section-title wow fadeInUp" data-wow-delay='0.2s'>ABOUT ME</div>
+  </div>
+  <!-- divider -->
+  <div class="divider wow fadeInUp" data-wow-delay='0.1s'></div>
+</div>      
+
+<!-- gallery and about -->
+<div class="about-wrapper">
+
+        
+  <!-- about-section -->
+  <div class="about__container wow fadeInUp" data-wow-delay='0.6s' id="about">
+      <p class="about__container-data" >Hi! My name is <span>Răzvan Andrei</span> and I'm a passionate digital worker
+      , living in <span>Bucharest,</span> Romania.</p>
+
+      <p >My knowledge extends to 
+       <span class="about__container-contact-link">Front-End Development, 
+        Copywriting and Social Media Management.</span></p>
+
+      <p class="about__container-link"><a href="/cv"
+              target="_blank">Check out my resume here.</a></p>
+  </div>
+  <div class="about-gallery ">
+      <div class="about-gallery-randomizer ">
+  </div>
+</div>
+</div>
+<!------------------------>
+
+<!--------------- projects section starts here --------------->
+<div class="container-fluid">
+  <!-- sections -->
+  <div class="project-section-header">
+    <div class="project-section-header-container">
+      <div class="project-section-order wow fadeInDown">03</div>
+      <div class="project-section-title wow fadeInDown" >PROJECTS</div>
+    </div>
+    <!-- divider -->
+    <div class="divider wow fadeInDown"></div>
+      </div>
+  
+
+  <div class="whitespace"></div>
+  <div class="whitespace"></div>
+
+  <div class="row" >
+      <div class="col-lg-4 project project1 wow fadeInLeft" onclick="location.href='project.html'" >
+          <div class="project-text">
+              <h1>Presentation Websites</h1>
+              <p>Websites from scratch | Technologies: HTML, CSS, JS (+ Three.JS, AnimeJS, GSAP, etc), PHP, NodeJS (with Express) 
+               <br> *Also this website (or Node App) is made from scratch entirely by me. Hooray!!
+              </p>
+          </div>
+      </div>
+      <div class="col-lg-4 project project1 wow fadeInRight" onclick="location.href='project.html'" >
+          <div class="project-text">
+              <h1>Wordpress Website</h1>
+              <p>Web design and content</p>
+          </div>
+      </div>
+      <div class="circular-text">
+        <span id="rotated">
+        what • goes • around • comes • around • and • round • it • goes • again  •  
+        </span>
+        <ion-icon name="arrow-down-outline"></ion-icon>
+      </div>
+
+  </div>
+
+  <div class="whitespace"></div>
+
+  <div class="row">
+      <div class="cerc-2">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+          <p>- HTML <br>- CSS (SASS & Bootstrap) <br> - JS - React & more libraries <br> - Webflow and Wordpress</p>
+      </div>
+      <div class="col-lg-4 project project2" onclick="location.href='project.html'">
+          <div class="project-text">
+              <h1>Blog Posts / Content Creation</h1>
+              <p>Freelance & with Kywara Marketing Collaborator</p>
+          </div>
+      </div>
+      <div class="col-lg-4 project project2 wow FadeInUp" onclick="location.href='project.html'">
+          <div class="project-text">
+              <h1>SEO</h1>
+              <p>Keywords Research, On & Off-Page Optimization, etc. <br> *I always rank very well*</p>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="row">
+      <div class="cerc-3">
+          <ion-icon name="arrow-up-outline"></ion-icon>
+          <p>- Photoshop <br> - Adobe Premiere <br> - Adobe XD <br> - Ableton Live</p>
+      </div>
+      <div class="col-lg-4 project project3" onclick="location.href='project.html'">
+          <div class="project-text">
+              <h1>Social Media</h1>
+              <p>I make the strategy, design the posts, think & write the content & get money</p>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- <div class="whitespace"></div> -->
+  <div class="cerc-4">
+    <a href="/projects"><p> All Projects</p></a>
+</div>
+  <!-- <div class="cerc-cv">
+      <div class="ringOne ring">
+          <img src="ring.png" alt="">
+      </div>
+      <p>All Projects</p>
+      <div class="ringTwo ring">
+          <img src="ring.png" alt="">
+      </div> 
+  </div> -->
+
+<div class="whitespace"></div>
+<div class="whitespace"></div>
+
+<!--------------------Slider------------------------>
+<div class="slider-section-header">
+  <p class="slider-section-title wow fadeInDown" >* I work with</p>
+</div>
+<div class="slider-divider"></div>
+<div class="loader">
+  <marquee direction="right" scrollamount="15">
+      Passion Passion Passion <span> Money </span> Passion Passion Passion <span> Money </span> Passion <span> Dollaz </span> 
+      Passion Passion Passion Passion<span> Money </span> Passion Passion <span> Money </span> Passion Passion Passion 
+      Passion Passion Passion <span> Dollaz </span> Passion Passion Passion Passion Passion <span> Dollaz </span> Passion 
+      Passion Passion Passion Passion <span>Dollaz</span> Passion Passion Passion Passion Passion 
+      Passion Passion
+      Passion Passion Passion <span> Money </span> Passion Passion Passion <span> Money </span> Passion <span> Dollaz </span> 
+      Passion Passion Passion Passion<span> Money </span> Passion Passion <span> Money </span> Passion Passion Passion 
+      Passion Passion Passion <span> Dollaz </span> Passion Passion Passion Passion Passion <span> Dollaz </span> Passion 
+      Passion Passion Passion Passion <span>Dollaz</span> Passion Passion Passion Passion Passion 
+      Passion Passion 
+      </marquee
+  >
+  <marquee direction="left" scrollamount="15">
+      Technology Technology Technology <span> ARTIFICIAL INTELLIGENCE </span> Technology Technology Technology <span> BLOCKCHAIN </span> 
+      Technology Technology Technology <span> CRYPTO </span> Technology Technology Technology <span> ARTIFICIAL INTELLIGENCE </span> Technology Technology 
+      Technology <span> SOFTWARE TRENDS </span> Technology Technology Technology <span> INNOVATION </span> Technology Technology Technology <span> ENGINEERING </span>
+      Technology Technology <span> ENGINEERING </span> Technology Technology Technology <span> MEDICAL ENGINEERING </span> Technology Technology Technology Technology Technology 
+      Technology Technology Technology Technology Technology Technology</marquee>
+  <marquee direction="right" scrollamount="20"
+      >DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>
+      DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN>DESIGN DESIGN DESIGN <span> ART </span> DESIGN DESIGN DESIGN <SPAN> WEB </SPAN> DESIGN DESIGN DESIGN
+      <SPAN> TENDS </SPAN></marquee
+  >
+  <marquee direction="left" scrollamount="15"
+      >MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      MEDIA <span> NEWS </span> TRENDS <span> GROWTH </span> MEDIA <span> REACH </span> MEDIA <span> STRATEGY </span>
+      </marquee
+  >
+</div>
+
+<div class="whitespace"></div>
+<div class="whitespace"></div>
+<!--------------- footer starts here --------------->
+<div class="footer">
+  <div class="container">
+        <br><br>
+
+        <div class="collab">
+              <div class="row">
+                    
+                      <div class="footer-section-order wow fadeInDown">04</div>
+                      <p class="line anim-typewriter ">Got an interesting project?</p>
+                    
+              </div>
+        </div>
+
+        <br>
+
+        <div class="hr">
+              <div class="row"></div>
+        </div>
+
+        <br><br>
+
+        <div class="info">
+              <div class="row">
+                    <div class="col-lg-4" id="personal">
+                          <p class="wow fadeInUp">connect with me</p>
+                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">insta @andreirazvan.7</h4>
+                          <br><br>
+                    </div>
+
+                    <div class="col-lg-4" id="media">
+                          <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
+
+                          <ul>
+                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s"><a href="www.facebook.com">fb</a></li>
+                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s"><a href="www.instagram.com">ig</a></li>
+                          </ul>
+
+                          <br><br>
+                    </div>
+
+                    <div class="col-lg-4" id="address">
+                          <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
+                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">ndr_r@yahoo.com</h4>
+                          <br><br>
+                    </div>
+              </div>
+        </div>
+  </div>
+</div>
+<!--------------- footer ends here --------------->
+
+<!--------------- projects section ends here --------------->
+
+    <!-----ThreeJS----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js" integrity="sha512-jeYvJdyAYkpQCY/omvCYQo89qA5YxDW4JBT7COPsHT2sOAanwxkZRFeP9gc69b5reSDpZIoyCqZQZcWZkbB5Gw==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+    <script src="hover.js"></script>
+    <script src="distortion.js"></script>
+    <script>
+      new WOW().init();
+    
+
+
+    </script>
+  </body>
+</html>
